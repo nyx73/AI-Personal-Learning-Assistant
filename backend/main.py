@@ -1,0 +1,24 @@
+"""AI Personal Learning Assistant - FastAPI Backend"""
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from api.routes import courses, advisor, users, schedule
+
+app = FastAPI(title="AI Learning Assistant API", version="1.0.0")
+
+app.add_middleware(
+    CORSMiddleware,
+    # Allow all origins for local development; restrict to specific origins in production
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+app.include_router(courses.router, prefix="/api")
+app.include_router(advisor.router, prefix="/api")
+app.include_router(users.router, prefix="/api")
+app.include_router(schedule.router, prefix="/api")
+
+@app.get("/")
+def health_check():
+    return {"status": "healthy", "service": "AI Learning Assistant API"}

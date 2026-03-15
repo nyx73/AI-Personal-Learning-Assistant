@@ -1,0 +1,23 @@
+id,title,instructor,category,difficulty,rating,duration_weeks,description,tags
+1,Machine Learning Fundamentals,Dr. Sarah Johnson,AI/ML,Intermediate,4.8,12,Learn core ML concepts including supervised and unsupervised learning,machine learning;python;scikit-learn
+2,Python for Data Science,Prof. Michael Chen,Programming,Beginner,4.9,8,Master Python for data science with pandas and numpy,python;pandas;numpy;data science
+3,Deep Learning with TensorFlow,Dr. Emily Rodriguez,AI/ML,Advanced,4.7,16,Build neural networks using TensorFlow and Keras,deep learning;tensorflow;keras;neural networks
+4,Natural Language Processing,Prof. James Wilson,AI/ML,Advanced,4.6,10,Process and analyze text data using modern NLP techniques,nlp;transformers;bert;text
+5,React Development Masterclass,Sarah Kim,Web Dev,Intermediate,4.8,10,Build modern web applications with React and hooks,react;javascript;frontend;web
+6,Statistics for Data Science,Dr. Alex Thompson,Mathematics,Beginner,4.7,6,Essential statistics and probability for data science,statistics;probability;math
+7,AWS Cloud Practitioner,David Park,Cloud,Beginner,4.6,6,Introduction to Amazon Web Services cloud computing,aws;cloud;devops
+8,Computer Vision,Dr. Lisa Nguyen,AI/ML,Advanced,4.5,14,Image recognition and object detection with deep learning,computer vision;opencv;cnn
+9,Data Visualization with D3.js,Mark Stevens,Web Dev,Intermediate,4.7,8,Create interactive data visualizations for the web,d3js;javascript;visualization
+10,SQL and Database Design,Prof. Anna White,Programming,Beginner,4.8,6,Master SQL and relational database design principles,sql;database;postgresql
+11,Kubernetes and Docker,Carlos Rivera,Cloud,Intermediate,4.6,8,Container orchestration with Kubernetes and Docker,docker;kubernetes;devops;containers
+12,Time Series Analysis,Dr. Rachel Green,Data Science,Advanced,4.5,10,Analyze temporal data and build forecasting models,time series;forecasting;arima;lstm
+13,Cybersecurity Fundamentals,Prof. Tom Harris,Security,Intermediate,4.7,8,Learn essential cybersecurity concepts and practices,security;networking;cryptography
+14,Angular Development,Jessica Lee,Web Dev,Intermediate,4.6,10,Build enterprise web applications with Angular,angular;typescript;frontend
+15,Computer Algorithms,Dr. Robert Kim,Programming,Advanced,4.8,12,Master data structures and algorithm design,algorithms;data structures;complexity
+16,Business Analytics,Prof. Susan Clark,Data Science,Beginner,4.7,6,Apply data analysis for business decision making,analytics;business intelligence;excel
+17,Reinforcement Learning,Dr. Peter Wu,AI/ML,Advanced,4.6,14,Build AI agents using reinforcement learning,rl;openai gym;q-learning
+18,GraphQL and REST APIs,Mike Johnson,Web Dev,Intermediate,4.7,6,Design and build modern APIs with GraphQL and REST,graphql;rest;api;nodejs
+19,Linear Algebra for ML,Dr. Sophia Martinez,Mathematics,Intermediate,4.8,8,Linear algebra concepts essential for machine learning,linear algebra;vectors;matrices
+20,Data Engineering with Spark,Dr. Kevin Brown,Data Science,Advanced,4.6,12,Build scalable data pipelines with Apache Spark,spark;hadoop;big data;etl
+21,iOS App Development,Amy Chen,Mobile,Intermediate,4.7,12,Build iOS applications with Swift and SwiftUI,swift;ios;mobile;xcode
+22,Blockchain Development,Prof. Nathan Ford,Programming,Advanced,4.5,10,Build decentralized applications on the blockchain,blockchain;solidity;ethereum;web3
