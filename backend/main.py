@@ -7,6 +7,7 @@ app = FastAPI(title="AI Learning Assistant API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
+    # Allow all origins for local development; restrict to specific origins in production
     allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],

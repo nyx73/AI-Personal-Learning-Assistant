@@ -119,7 +119,7 @@ function QuizSection() {
         <div style={{ background: '#e2e8f0', borderRadius: 8, height: 8, marginBottom: 24 }}>
           <div style={{
             height: '100%', borderRadius: 8,
-            width: `${((currentQ) / questions.length) * 100}%`,
+            width: `${((currentQ + 1) / questions.length) * 100}%`,
             background: 'linear-gradient(90deg, #667eea, #764ba2)',
             transition: 'width 0.4s ease',
           }} />

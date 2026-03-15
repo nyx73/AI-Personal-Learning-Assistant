@@ -1,10 +1,11 @@
 """Similarity model for course matching."""
 
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
+
+
 def compute_similarity(vec_a: list, vec_b: list) -> float:
-    """Compute cosine similarity between two vectors."""
-    dot = sum(a * b for a, b in zip(vec_a, vec_b))
-    mag_a = sum(a ** 2 for a in vec_a) ** 0.5
-    mag_b = sum(b ** 2 for b in vec_b) ** 0.5
-    if mag_a == 0 or mag_b == 0:
-        return 0.0
-    return dot / (mag_a * mag_b)
+    """Compute cosine similarity between two vectors using scikit-learn."""
+    a = np.array(vec_a).reshape(1, -1)
+    b = np.array(vec_b).reshape(1, -1)
+    return float(cosine_similarity(a, b)[0][0])

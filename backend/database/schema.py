@@ -10,7 +10,7 @@ class User(Base):
     name = Column(String, index=True)
     email = Column(String, unique=True, index=True)
     level = Column(String, default="Beginner")
-    created_at = Column(DateTime, default=datetime.datetime.utcnow)
+    created_at = Column(DateTime, default=lambda: datetime.datetime.utcnow())
 
 class Course(Base):
     __tablename__ = "courses"
@@ -28,4 +28,4 @@ class Enrollment(Base):
     user_id = Column(Integer, ForeignKey("users.id"))
     course_id = Column(Integer, ForeignKey("courses.id"))
     progress = Column(Float, default=0.0)
-    enrolled_at = Column(DateTime, default=datetime.datetime.utcnow)
+    enrolled_at = Column(DateTime, default=lambda: datetime.datetime.utcnow())

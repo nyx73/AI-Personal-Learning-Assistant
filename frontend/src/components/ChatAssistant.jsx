@@ -86,7 +86,7 @@ function ChatAssistant() {
                 <div style={{ background: '#f7f8ff', padding: '12px 16px', borderRadius: '18px 18px 18px 4px' }}>
                   <span style={{ display: 'inline-flex', gap: 4 }}>
                     {[0,1,2].map(i => (
-                      <span key={i} style={{ width: 7, height: 7, borderRadius: '50%', background: '#667eea', display: 'inline-block', opacity: 0.6 }}>•</span>
+                      <span key={i} style={{ width: 7, height: 7, borderRadius: '50%', background: '#667eea', display: 'inline-block', opacity: 0.6 }}></span>
                     ))}
                   </span>
                 </div>
